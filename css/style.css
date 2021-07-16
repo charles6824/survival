@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.hero-shape1{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+@media screen and (min-width: 1500px){
+    .hero-shape1{
+        max-width:1007px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .hero-shape1{
+        max-width:55%;
+    }
+}
+.hero-shape2{
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index:-1;
+    max-width:878px;
+}
+@media screen and (min-width: 1500px) and (max-width: 1800px){
+    .hero-shape2{
+        max-width:735px;
+    }
+}
+@media screen and (max-width: 1499px){
+    .hero-shape2{
+        max-width:735px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .hero-shape2{
+        display:none;
+    }
+}
+@media screen and (max-width: 1199px){
+    .hero-shape2{
+        top:auto;
+        bottom:0;
+    }
+}
+marquee{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.form-control{
+    border-radius: 20px;
+    border: 1px dotted green;
+}
+.bg{
+    border-radius: 40px;
+}
+.bg-nig{
+    background: url(../images/flag.png);
+    background-position: center;
+    background-size: cover;
+    filter: opacity(0.1);
+}
+.container .head-text{
+    color: green;
+    margin-top: 2rem;
+    padding: 10px;
+    border: 2px dotted green;
+    border-radius: 25px;
+}
+.text-success{
+    font-weight: 600;
+}
+.text-copy{
+    color: green;
+    font-size: 11px;
+    font-weight: 500;
+}
+.btn-success{
+    border-radius: 20px;
+}
+
+.text-effect{
+    color: #fff;
+    font-family: 'Codystar', cursive;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow{
+    0%{
+        text-shadow: 0 0 10px #f7cb07, 0 0 20px #f7cb07, 0 0 30px #f7cb07,
+                    0 0 40px #f7cb07, 0 0 50px #f7cb07, 0 0 60px #f7cb07,
+                    0 0 70px #f7cb07, 0 0 90px #f7cb07;
+    }
+    100%{
+        text-shadow: 0 0 20px #f7cb07, 0 0 30px #f7cb07, 0 0 40px #f7cb07,
+                    0 0 50px #f7cb07, 0 0 60px #f7cb07, 0 0 70px #f7cb07,
+                    0 0 80px #f7cb07, 0 1 90px #f7cb07;
+    }
+}
+@media only screen and (max-width: 990px){
+    .text-effect{ font-size: 90px; }
+}
+@media only screen and (max-width: 767px){
+    .text-effect{ font-size: 70px; }
+}
+@media only screen and (max-width: 576px){
+    .text-effect{ font-size: 55px; }
+}
+@media only screen and (max-width: 479px){
+    .text-effect{ font-size: 40px; }
+}

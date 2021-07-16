@@ -1,0 +1,60 @@
+
+   .border-pattern{
+    position:absolute;
+    left:4mm;
+    top:-6mm;
+    height:200mm;
+    width:267mm;
+    background-color: #DFDBE5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='40' viewBox='0 0 50 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%230d8222' fill-opacity='0.87'%3E%3Cpath d='M40 10L36.67 0h-2.11l3.33 10H20l-2.28 6.84L12.11 0H10l6.67 20H10l-2.28 6.84L2.11 10 5.44 0h-2.1L0 10l6.67 20-3.34 10h2.11l2.28-6.84L10 40h20l2.28-6.84L34.56 40h2.1l-3.33-10H40l2.28-6.84L47.89 40H50l-6.67-20L50 0h-2.1l-5.62 16.84L40 10zm1.23 10l-2.28-6.84L34 28h4.56l2.67-8zm-10.67 8l-2-6h-9.12l2 6h9.12zm-12.84-4.84L12.77 38h15.79l2.67-8H20l-2.28-6.84zM18.77 20H30l2.28 6.84L37.23 12H21.44l-2.67 8zm-7.33 2H16l-4.95 14.84L8.77 30l2.67-8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+   }
+   .content{
+    position:absolute;
+    left:10mm;
+    top:10mm;
+    height:178mm;
+    width:245mm;
+    border:1mm solid green;
+    background:white;
+   }
+   .inner-content{
+    border:1mm solid green;
+    margin:4mm;
+    padding:10mm;
+    height:165mm;
+    text-align:center;
+   }
+   h1{
+    text-transform:uppercase;
+    font-size:48pt;
+    margin-bottom:0;
+   }
+   h2{
+    font-size:24pt;
+    margin-top:0;
+    padding-bottom:1mm;
+    display:inline-block;
+    border-bottom:1mm solid green;
+   }
+   h2::after{
+    content:"";
+    display:block;
+    padding-bottom:4mm;
+    border-bottom:1mm solid green;
+   }
+   h3{
+    font-size:20pt;
+    margin-bottom:0;
+    margin-top:10mm;
+   }
+   p{
+    font-size:16pt;
+   }
+   .badge{
+    width:40mm;
+    height:40mm;
+    position:absolute;
+    right:10mm;
+    bottom:10mm;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='currentColor'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z' /%3E%3C/svg%3E");
+   }
